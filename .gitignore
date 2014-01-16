@@ -28,16 +28,6 @@ local.properties
 # PDT-specific
 .buildpath
 
-bin/
-data/
-db/
-dist/
-logs/
-test-result/
-lib/
-tmp/
-modules/
-
 #################
 ## Visual Studio
 #################
