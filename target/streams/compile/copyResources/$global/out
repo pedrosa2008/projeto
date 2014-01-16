@@ -1,0 +1,9 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\application.conf,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\application.conf)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\evolutions,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\evolutions)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\initial-data.yml,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\initial-data.yml)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\messages,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\messages)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\projeto.mwb,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\projeto.mwb)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\routes,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\routes)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\evolutions\default,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\evolutions\default)
+[debug] 	(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\conf\evolutions\default\1.sql,D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\target\scala-2.10\classes\evolutions\default\1.sql)

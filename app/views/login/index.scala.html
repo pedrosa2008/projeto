@@ -1,0 +1,47 @@
+@(form: Form[Usuario])
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	@imports.stylesheet()
+    </head>
+    
+    <body>
+	
+	    <div class="container theme-showcase">
+	    	
+		    @if(form.hasGlobalErrors) {
+		    	<div class="alert alert-warning alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		            @form.globalError.message
+				</div>
+		    }
+		    	
+			@componentes.messages()
+		    
+			<div class="jumbotron">
+				<h1><strong>@Messages("app.title")</strong></h1>
+				
+		    	@helper.form(routes.Autenticacao.login) {
+				    
+				    <div class="form-inline" role="form" align="right">
+						<div class="form-group" style="padding: 3px">
+							<input type="text" class="form-control" name="usuario" id="usuario" placeholder="@Messages("label.usuario")" value="@form("usuario").value">
+						</div>
+						
+						<div class="form-group" style="padding: 3px">
+							<input type="password" class="form-control" name="senha" id="senha" placeholder="@Messages("label.senha")" value="@form("senha").value">
+						</div>
+						
+						<div class="form-group" style="padding: 3px">
+							<button type="submit" class="btn btn-default">@Messages("label.autenticar")</button>
+		 				</div>
+	 				</div>
+				}
+			</div>
+        </div>
+    </body>
+    
+    @imports.javascript()
+</html>

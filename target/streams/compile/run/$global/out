@@ -1,0 +1,2 @@
+Path(D:\Desenv_Pessoal\workspaces\eclipse_indigo\play-projeto\projeto\logs\application.log) is not a directory so descendants can not be called on itis not a directory
+[error] (compile:run) java.lang.reflect.InvocationTargetException

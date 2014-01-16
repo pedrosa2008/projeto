@@ -1,0 +1,45 @@
+
+# Status
+
+status:
+
+    - !!models.Status
+        id: 1
+        descricao: Ativo
+        
+    - !!models.Status
+        id: 2
+        descricao: Inativo
+    
+
+# Usuarios
+
+usuarios:
+
+    - !!models.Usuario
+        id: 1
+        usuario: pedrosa
+        senha: teste
+        pessoa: 1
+        status: 1
+
+    - !!models.Usuario
+        id: 2
+        usuario: teste
+        senha: teste
+        pessoa: 2
+        status: 1
+    
+
+# Pessoas
+
+pessoas:
+
+    - !!models.Pessoa
+        id: 1
+        nome: Fernando Gomes Pedrosa
+
+    - !!models.Pessoa
+        id: 2
+        nome: Usuário de Teste
+    
